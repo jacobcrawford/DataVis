@@ -1,0 +1,6 @@
+/Users/jacobcrawford/Desktop/DaVi project/data/Integration/medicin.csv
+/Users/jacobcrawford/Desktop/DaVi project/data/Integration/diagnosis.csv
+/Users/jacobcrawford/Desktop/DaVi project/data/Integration/patient.csv
+/Users/jacobcrawford/Desktop/DaVi project/data/Integration/allergy.csv
+/Users/jacobcrawford/Desktop/DaVi project/data/Integration.csv
+

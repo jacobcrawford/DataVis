@@ -1,0 +1,8 @@
+/Users/jacobcrawford/Desktop/DaVi project/data/synthetic/medications.csv
+/Users/jacobcrawford/Desktop/DaVi project/data/real/SyncMedication.csv
+/Users/jacobcrawford/Desktop/DaVi project/data/real/SyncDiagnosis.csv
+/Users/jacobcrawford/Desktop/DaVi project/data/synthetic/conditions.csv
+/Users/jacobcrawford/Desktop/DaVi project/data/synthetic/patients.csv
+/Users/jacobcrawford/Desktop/DaVi project/data/real/SyncPatient.csv
+/Users/jacobcrawford/Desktop/DaVi project/data/real/SyncAllergy.csv
+/Users/jacobcrawford/Desktop/DaVi project/data/synthetic/allergies.csv

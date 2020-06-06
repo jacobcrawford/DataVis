@@ -1,0 +1,204 @@
+2020-04-27 09:35:43,397 : WARN  : main :  : Node : CSV Reader : 2:1 : No settings available
+2020-04-27 09:43:51,353 : ERROR : KNIME-Worker-3-CSV Reader 2:1 :  : Node : CSV Reader : 2:1 : Execute failed: Too few data elements (line: 847 (845), source: 'file:/Users/jacobcrawford/Desktop/DaVi%20project/data/real/SyncAllergy.csv')
+org.knime.base.node.io.filereader.FileReaderException: Too few data elements (line: 847 (845), source: 'file:/Users/jacobcrawford/Desktop/DaVi%20project/data/real/SyncAllergy.csv')
+	at org.knime.base.node.io.filereader.FileRowIterator.prepareForException(FileRowIterator.java:670)
+	at org.knime.base.node.io.filereader.FileRowIterator.next(FileRowIterator.java:412)
+	at org.knime.core.node.ExecutionContext.createBufferedDataTable(ExecutionContext.java:260)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:130)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:740)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:574)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1229)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-04-27 09:44:04,942 : ERROR : KNIME-Worker-4-CSV Reader 2:1 :  : Node : CSV Reader : 2:1 : Execute failed: Too few data elements (line: 847 (845), source: 'file:/Users/jacobcrawford/Desktop/DaVi%20project/data/real/SyncAllergy.csv')
+org.knime.base.node.io.filereader.FileReaderException: Too few data elements (line: 847 (845), source: 'file:/Users/jacobcrawford/Desktop/DaVi%20project/data/real/SyncAllergy.csv')
+	at org.knime.base.node.io.filereader.FileRowIterator.prepareForException(FileRowIterator.java:670)
+	at org.knime.base.node.io.filereader.FileRowIterator.next(FileRowIterator.java:412)
+	at org.knime.core.node.ExecutionContext.createBufferedDataTable(ExecutionContext.java:260)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:130)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:740)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:574)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1229)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-04-27 09:44:40,112 : ERROR : KNIME-Worker-5-CSV Reader 2:1 :  : Node : CSV Reader : 2:1 : Execute failed: Too few data elements (line: 847 (845), source: 'file:/Users/jacobcrawford/Desktop/DaVi%20project/data/real/SyncAllergy.csv')
+org.knime.base.node.io.filereader.FileReaderException: Too few data elements (line: 847 (845), source: 'file:/Users/jacobcrawford/Desktop/DaVi%20project/data/real/SyncAllergy.csv')
+	at org.knime.base.node.io.filereader.FileRowIterator.prepareForException(FileRowIterator.java:670)
+	at org.knime.base.node.io.filereader.FileRowIterator.next(FileRowIterator.java:412)
+	at org.knime.core.node.ExecutionContext.createBufferedDataTable(ExecutionContext.java:260)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:130)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:740)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:574)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1229)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-04-27 09:51:09,194 : ERROR : KNIME-Worker-6-CSV Reader 2:1 :  : Node : CSV Reader : 2:1 : Execute failed: Encountered duplicate row ID "1"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "1"
+	at org.knime.core.data.container.DataContainer.checkAsyncWriteThrowable(DataContainer.java:466)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:574)
+	at org.knime.core.node.ExecutionContext.createBufferedDataTable(ExecutionContext.java:268)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:130)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:740)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:574)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1229)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "1"
+	at org.knime.core.data.container.DataContainer.addRowKeyForDuplicateCheck(DataContainer.java:848)
+	at org.knime.core.data.container.DataContainer$ContainerRunnable.run(DataContainer.java:1231)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-27 09:51:42,137 : ERROR : KNIME-Worker-7-CSV Reader 2:1 :  : Node : CSV Reader : 2:1 : Execute failed: Encountered duplicate row ID "2"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "2"
+	at org.knime.core.data.container.DataContainer.checkAsyncWriteThrowable(DataContainer.java:466)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:574)
+	at org.knime.core.node.ExecutionContext.createBufferedDataTable(ExecutionContext.java:268)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:130)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:740)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:574)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1229)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "2"
+	at org.knime.core.data.container.DataContainer.addRowKeyForDuplicateCheck(DataContainer.java:848)
+	at org.knime.core.data.container.DataContainer$ContainerRunnable.run(DataContainer.java:1231)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-27 09:52:41,875 : ERROR : KNIME-Worker-8-CSV Reader 2:1 :  : Node : CSV Reader : 2:1 : Execute failed: Encountered duplicate row ID "0"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "0"
+	at org.knime.core.data.container.DataContainer.checkAsyncWriteThrowable(DataContainer.java:466)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:574)
+	at org.knime.core.node.ExecutionContext.createBufferedDataTable(ExecutionContext.java:268)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:130)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:740)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:574)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1229)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "0"
+	at org.knime.core.data.container.DataContainer.addRowKeyForDuplicateCheck(DataContainer.java:848)
+	at org.knime.core.data.container.DataContainer$ContainerRunnable.run(DataContainer.java:1231)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-27 09:56:31,068 : ERROR : KNIME-Worker-10-CSV Reader 2:1 :  : Node : CSV Reader : 2:1 : Execute failed: Too few data elements (line: 847 (845), source: 'file:/Users/jacobcrawford/Desktop/DaVi%20project/data/real/SyncAllergy.csv')
+org.knime.base.node.io.filereader.FileReaderException: Too few data elements (line: 847 (845), source: 'file:/Users/jacobcrawford/Desktop/DaVi%20project/data/real/SyncAllergy.csv')
+	at org.knime.base.node.io.filereader.FileRowIterator.prepareForException(FileRowIterator.java:670)
+	at org.knime.base.node.io.filereader.FileRowIterator.next(FileRowIterator.java:412)
+	at org.knime.core.node.ExecutionContext.createBufferedDataTable(ExecutionContext.java:260)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:130)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:740)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:574)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1229)
+	at org.knime.core.node.Node.execute(Node.java:1016)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:557)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:218)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:124)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-04-27 10:00:39,468 : WARN  : main :  : Node : Column Rename : 2:3 : No configuration available
+2020-04-27 10:01:00,182 : WARN  : main :  : Node : Column Rename : 2:3 : No configuration available
+2020-04-27 10:01:09,369 : WARN  : main :  : Node : Column Rename : 2:5 : No configuration available
+2020-04-27 10:15:32,589 : WARN  : main :  : Node : Column Rename : 2:3 : No configuration available
+2020-04-27 10:15:36,891 : WARN  : main :  : Node : Column Rename : 2:3 : No configuration available
+2020-04-27 10:16:18,189 : WARN  : KNIME-Worker-14-Column Filter 2:4 :  : Node : Column Rename : 2:3 : No configuration available
+2020-04-27 10:16:27,903 : WARN  : main :  : Node : Column Rename : 2:5 : No configuration available
+2020-04-27 10:16:29,107 : WARN  : main :  : Node : Column Rename : 2:5 : No configuration available
+2020-04-27 10:23:05,591 : WARN  : main :  : Node : CSV Writer : 2:8 : No destination location provided! Please enter a valid location.
+2020-04-27 10:24:56,741 : WARN  : main :  : Node : CSV Writer : 2:8 : No destination location provided! Please enter a valid location.
+2020-04-27 10:25:44,971 : WARN  : main :  : Node : CSV Writer : 2:8 : Input table must only contain String, Int, or Doubles
+2020-04-27 10:25:51,024 : WARN  : main :  : Node : CSV Writer : 2:8 : Input table must only contain String, Int, or Doubles
+2020-04-27 10:29:25,802 : WARN  : main :  : Node : Variable to Table Column : 2:9 : No variables selected
+2020-04-27 10:29:41,438 : WARN  : main :  : Node : Variable to Table Column : 2:10 : No variables selected
+2020-04-27 10:32:14,721 : WARN  : main :  : Node : Constant Value Column : 2:11 : Configuration missing.
+2020-04-27 10:32:16,764 : WARN  : main :  : Node : Constant Value Column : 2:12 : Configuration missing.
+2020-04-27 10:32:59,111 : WARN  : main :  : Node : CSV Writer : 2:8 : Output file '/Users/jacobcrawford/Desktop/DaVi project/data/Integration/allergy.csv' exists and will be overwritten
+2020-04-27 10:33:03,487 : WARN  : KNIME-Worker-23-Constant Value Column 2:12 :  : Node : CSV Writer : 2:8 : Output file '/Users/jacobcrawford/Desktop/DaVi project/data/Integration/allergy.csv' exists and will be overwritten
+2020-04-27 10:33:03,489 : WARN  : KNIME-Worker-24-Concatenate 2:7 :  : Node : CSV Writer : 2:8 : Output file '/Users/jacobcrawford/Desktop/DaVi project/data/Integration/allergy.csv' exists and will be overwritten
+2020-04-27 10:46:30,428 : WARN  : KNIME-Worker-25-CSV Reader 3:1 :  : Node : Column Rename : 3:3 : The following columns are configured but no longer exist: "AllergyType", "StartYear"
+2020-04-27 10:46:35,234 : WARN  : KNIME-Worker-26-CSV Reader 3:2 :  : Node : Column Rename : 3:5 : The following columns are configured but no longer exist: "START", "PATIENT", "DESCRIPTION"
+2020-04-27 10:46:35,236 : WARN  : KNIME-Worker-26-CSV Reader 3:2 :  : Node : CSV Writer : 3:8 : Output file '/Users/jacobcrawford/Desktop/DaVi project/data/Integration/allergy.csv' exists and will be overwritten
+2020-04-27 10:48:22,010 : WARN  : main :  : Node : Column Rename : 3:3 : The following columns are configured but no longer exist: "AllergyType", "StartYear"
+2020-04-27 10:48:22,012 : WARN  : main :  : Node : CSV Writer : 3:8 : Output file '/Users/jacobcrawford/Desktop/DaVi project/data/Integration/allergy.csv' exists and will be overwritten
+2020-04-27 10:48:35,504 : WARN  : main :  : Node : Column Rename : 3:3 : The following columns are configured but no longer exist: "AllergyType", "StartYear"
+2020-04-27 10:48:35,505 : WARN  : main :  : Node : CSV Writer : 3:8 : Output file '/Users/jacobcrawford/Desktop/DaVi project/data/Integration/allergy.csv' exists and will be overwritten
+2020-04-27 10:50:30,689 : WARN  : main :  : Node : Column Rename : 3:5 : The following columns are configured but no longer exist: "START", "PATIENT", "DESCRIPTION"
+2020-04-27 10:50:31,812 : WARN  : main :  : Node : Column Rename : 3:5 : The following columns are configured but no longer exist: "START", "PATIENT", "DESCRIPTION"
+2020-04-27 10:51:07,435 : WARN  : main :  : Node : Column Rename : 3:3 : The following columns are configured but no longer exist: "AllergyType", "StartYear"
+2020-04-27 10:51:07,992 : WARN  : main :  : Node : Column Rename : 3:3 : The following columns are configured but no longer exist: "AllergyType", "StartYear"
+2020-04-27 11:38:49,209 : WARN  : KNIME-Worker-30-CSV Reader 4:2 :  : Node : Column Rename : 4:5 : The following columns are configured but no longer exist: "ID", "BIRTHDATE", "GENDER"
+2020-04-27 11:38:58,250 : WARN  : KNIME-Worker-31-CSV Reader 4:1 :  : Node : Column Rename : 4:3 : The following columns are configured but no longer exist: "Gender", "YearOfBirth"
+2020-04-27 11:39:35,396 : WARN  : main :  : Node : Column Rename : 4:3 : The following columns are configured but no longer exist: "Gender", "YearOfBirth"
+2020-04-27 11:39:37,138 : WARN  : main :  : Node : Column Rename : 4:3 : The following columns are configured but no longer exist: "Gender", "YearOfBirth"
+2020-04-27 11:40:12,512 : WARN  : main :  : Node : Column Rename : 4:5 : The following columns are configured but no longer exist: "ID", "BIRTHDATE", "GENDER"
+2020-04-27 11:40:14,840 : WARN  : main :  : Node : Column Rename : 4:5 : The following columns are configured but no longer exist: "ID", "BIRTHDATE", "GENDER"
+2020-04-27 11:40:23,023 : WARN  : main :  : Node : Column Rename : 4:3 : The following columns are configured but no longer exist: "Gender", "YearOfBirth"
+2020-04-27 11:40:24,005 : WARN  : main :  : Node : Column Rename : 4:3 : The following columns are configured but no longer exist: "Gender", "YearOfBirth"
+2020-04-27 13:38:08,462 : WARN  : KNIME-Worker-35-CSV Reader 5:1 :  : Node : Column Rename : 5:3 : The following columns are configured but no longer exist: "DiagnosisDescription", "StartYear", "StopYear"
+2020-04-27 13:39:55,024 : WARN  : main :  : Node : Column Rename : 5:3 : The following columns are configured but no longer exist: "DiagnosisDescription", "StartYear", "StopYear"
+2020-04-27 13:39:56,594 : WARN  : main :  : Node : Column Rename : 5:3 : The following columns are configured but no longer exist: "DiagnosisDescription", "StartYear", "StopYear"
+2020-04-27 13:40:05,350 : WARN  : main :  : Node : Column Rename : 5:3 : The following columns are configured but no longer exist: "DiagnosisDescription", "StartYear", "StopYear"
+2020-04-27 13:40:10,112 : WARN  : main :  : Node : Column Rename : 5:3 : The following columns are configured but no longer exist: "DiagnosisDescription", "StartYear", "StopYear"
+2020-04-27 13:40:21,889 : WARN  : main :  : Node : Column Rename : 5:5 : The following columns are configured but no longer exist: "START", "STOP"
+2020-04-27 13:40:23,019 : WARN  : main :  : Node : Column Rename : 5:5 : The following columns are configured but no longer exist: "START", "STOP"
